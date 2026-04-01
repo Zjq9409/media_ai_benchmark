@@ -1,0 +1,173 @@
+Setting pipeline to PAUSED ...
+Got context from element 'vapostproc10': gst.va.display.handle=context, gst-display=(GstObject)"\(GstVaDisplayDrm\)\ vadisplaydrm5", description=(string)"Intel\(R\)\ Gen\ Graphics", path=(string)/dev/dri/renderD128;
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Pipeline is PREROLLED ...
+Setting pipeline to PLAYING ...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+New clock: GstSystemClock
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+Redistribute latency...
+FpsCounter(last 1.01sec): total=422.60 fps, number-streams=11, per-stream=38.42 fps (38.78, 38.78, 39.77, 37.79, 36.79, 37.79, 36.79, 37.79, 39.77, 39.77, 38.78)
+FpsCounter(last 1.00sec): total=504.78 fps, number-streams=11, per-stream=45.89 fps (43.98, 43.98, 44.98, 47.98, 43.98, 43.98, 43.98, 49.98, 49.98, 48.98, 42.98)
+FpsCounter(last 1.00sec): total=489.11 fps, number-streams=11, per-stream=44.46 fps (45.82, 44.83, 43.83, 44.83, 44.83, 44.83, 44.83, 44.83, 43.83, 42.83, 43.83)
+FpsCounter(average 1.01sec): total=488.09 fps, number-streams=11, per-stream=44.37 fps (44.73, 44.73, 44.73, 45.73, 43.74, 44.73, 43.74, 44.73, 43.74, 43.74, 43.74)
+FpsCounter(last 1.01sec): total=461.13 fps, number-streams=11, per-stream=41.92 fps (41.74, 41.74, 41.74, 41.74, 41.74, 41.74, 40.75, 41.74, 41.74, 44.72, 41.74)
+FpsCounter(average 2.01sec): total=474.17 fps, number-streams=11, per-stream=43.11 fps (43.69, 42.70, 43.20, 43.20, 43.20, 43.20, 42.70, 43.20, 42.70, 43.69, 42.70)
+FpsCounter(last 1.00sec): total=422.82 fps, number-streams=11, per-stream=38.44 fps (37.89, 36.90, 37.89, 37.89, 39.89, 33.91, 45.87, 37.89, 37.89, 37.89, 38.89)
+FpsCounter(average 3.02sec): total=453.28 fps, number-streams=11, per-stream=41.21 fps (41.12, 40.79, 40.79, 41.12, 41.45, 40.12, 43.11, 41.45, 40.79, 41.45, 41.12)
+FpsCounter(last 1.01sec): total=381.46 fps, number-streams=11, per-stream=34.68 fps (34.77, 33.78, 34.77, 34.77, 34.77, 34.77, 34.77, 34.77, 34.77, 34.77, 34.77)
+FpsCounter(average 4.02sec): total=434.62 fps, number-streams=11, per-stream=39.51 fps (39.31, 39.06, 39.31, 39.56, 39.81, 38.56, 41.05, 39.56, 39.31, 39.56, 39.56)
+FpsCounter(last 1.01sec): total=361.27 fps, number-streams=11, per-stream=32.84 fps (33.75, 33.75, 31.76, 31.76, 32.75, 32.75, 32.75, 33.75, 32.75, 30.77, 34.74)
+FpsCounter(average 5.02sec): total=418.06 fps, number-streams=11, per-stream=38.01 fps (38.24, 37.64, 37.64, 37.84, 38.24, 37.24, 39.24, 38.24, 37.64, 37.64, 38.44)
+FpsCounter(last 1.01sec): total=350.13 fps, number-streams=11, per-stream=31.83 fps (31.83, 31.83, 31.83, 31.83, 31.83, 31.83, 31.83, 31.83, 30.83, 31.83, 32.82)
+FpsCounter(average 6.02sec): total=407.00 fps, number-streams=11, per-stream=37.00 fps (37.03, 36.86, 36.70, 36.86, 37.20, 36.37, 38.03, 37.20, 36.70, 36.70, 37.36)
+FpsCounter(last 1.01sec): total=315.49 fps, number-streams=11, per-stream=28.68 fps (28.59, 29.58, 28.59, 28.59, 28.59, 28.59, 28.59, 29.58, 29.58, 27.60, 27.60)
+FpsCounter(average 7.03sec): total=393.51 fps, number-streams=11, per-stream=35.77 fps (35.84, 35.70, 35.41, 35.55, 35.98, 35.13, 36.55, 35.98, 35.70, 35.41, 36.27)
+FpsCounter(last 1.01sec): total=314.04 fps, number-streams=11, per-stream=28.55 fps (27.83, 27.83, 28.82, 28.82, 28.82, 28.82, 28.82, 27.83, 28.82, 27.83, 29.81)
+FpsCounter(average 8.04sec): total=383.33 fps, number-streams=11, per-stream=34.85 fps (34.94, 34.69, 34.69, 34.69, 34.94, 34.32, 35.56, 35.06, 34.69, 34.57, 35.19)
+FpsCounter(last 1.01sec): total=312.30 fps, number-streams=11, per-stream=28.39 fps (27.67, 26.68, 28.66, 28.66, 27.67, 28.66, 28.66, 29.65, 28.66, 28.66, 28.66)
+FpsCounter(average 9.05sec): total=375.74 fps, number-streams=11, per-stream=34.16 fps (34.05, 33.94, 33.94, 34.05, 34.27, 33.72, 34.93, 34.49, 34.05, 33.83, 34.49)
+FpsCounter(last 1.00sec): total=310.56 fps, number-streams=11, per-stream=28.23 fps (28.87, 28.87, 27.87, 27.87, 28.87, 27.87, 29.86, 27.87, 27.87, 26.87, 27.87)
+FpsCounter(average 10.05sec): total=369.28 fps, number-streams=11, per-stream=33.57 fps (33.53, 33.34, 33.44, 33.44, 33.63, 33.14, 34.33, 33.83, 33.53, 33.24, 33.83)
+FpsCounter(last 1.01sec): total=314.03 fps, number-streams=11, per-stream=28.55 fps (28.82, 28.82, 30.81, 27.83, 27.83, 28.82, 27.83, 28.82, 28.82, 27.83, 27.83)
+FpsCounter(average 11.06sec): total=364.20 fps, number-streams=11, per-stream=33.11 fps (33.10, 32.92, 33.10, 32.92, 33.10, 32.83, 33.73, 33.28, 33.10, 32.83, 33.28)
+FpsCounter(last 1.01sec): total=312.58 fps, number-streams=11, per-stream=28.42 fps (27.70, 28.69, 27.70, 27.70, 27.70, 28.69, 28.69, 27.70, 29.67, 29.67, 28.69)
+FpsCounter(average 12.06sec): total=359.76 fps, number-streams=11, per-stream=32.71 fps (32.67, 32.59, 32.67, 32.50, 32.67, 32.42, 33.33, 32.83, 32.75, 32.42, 32.92)
+FpsCounter(last 1.00sec): total=310.94 fps, number-streams=11, per-stream=28.27 fps (28.90, 27.90, 28.90, 28.90, 28.90, 28.90, 26.91, 28.90, 27.90, 26.91, 27.90)
+FpsCounter(average 13.07sec): total=356.06 fps, number-streams=11, per-stream=32.37 fps (32.36, 32.28, 32.36, 32.20, 32.36, 32.20, 32.89, 32.51, 32.36, 32.05, 32.51)
+FpsCounter(last 1.00sec): total=310.67 fps, number-streams=11, per-stream=28.24 fps (28.88, 28.88, 27.88, 26.89, 27.88, 28.88, 28.88, 26.89, 27.88, 27.88, 29.87)
+FpsCounter(average 14.09sec): total=352.78 fps, number-streams=11, per-stream=32.07 fps (32.15, 32.01, 32.08, 31.86, 32.08, 31.86, 32.50, 32.15, 32.08, 31.72, 32.29)
+FpsCounter(last 1.01sec): total=314.09 fps, number-streams=11, per-stream=28.55 fps (28.82, 27.83, 28.82, 28.82, 28.82, 27.83, 28.82, 28.82, 28.82, 28.82, 27.83)
+FpsCounter(average 15.10sec): total=350.25 fps, number-streams=11, per-stream=31.84 fps (31.93, 31.73, 31.93, 31.67, 31.80, 31.67, 32.26, 31.93, 31.80, 31.53, 32.00)
+FpsCounter(last 1.01sec): total=314.10 fps, number-streams=11, per-stream=28.55 fps (28.83, 28.83, 28.83, 28.83, 27.83, 28.83, 28.83, 28.83, 27.83, 28.83, 27.83)
+FpsCounter(average 16.10sec): total=347.92 fps, number-streams=11, per-stream=31.63 fps (31.67, 31.54, 31.67, 31.48, 31.61, 31.48, 32.04, 31.67, 31.61, 31.36, 31.79)
+FpsCounter(last 1.00sec): total=311.87 fps, number-streams=11, per-stream=28.35 fps (27.99, 28.99, 28.99, 27.99, 28.99, 28.99, 27.99, 26.99, 28.99, 27.99, 27.99)
+FpsCounter(average 17.11sec): total=345.84 fps, number-streams=11, per-stream=31.44 fps (31.49, 31.38, 31.49, 31.32, 31.44, 31.32, 31.84, 31.44, 31.44, 31.14, 31.55)
+FpsCounter(last 1.01sec): total=312.75 fps, number-streams=11, per-stream=28.43 fps (28.70, 29.69, 28.70, 26.72, 28.70, 27.71, 28.70, 28.70, 27.71, 29.69, 27.71)
+FpsCounter(average 18.13sec): total=343.78 fps, number-streams=11, per-stream=31.25 fps (31.34, 31.23, 31.34, 31.01, 31.23, 31.12, 31.67, 31.23, 31.23, 31.06, 31.34)
+FpsCounter(last 1.01sec): total=304.56 fps, number-streams=11, per-stream=27.69 fps (27.69, 26.70, 27.69, 28.68, 27.69, 28.68, 27.69, 27.69, 27.69, 26.70, 27.69)
+FpsCounter(average 19.13sec): total=341.89 fps, number-streams=11, per-stream=31.08 fps (31.16, 31.00, 31.16, 30.90, 31.06, 31.00, 31.48, 31.06, 31.06, 30.85, 31.16)
+FpsCounter(last 1.00sec): total=311.97 fps, number-streams=11, per-stream=28.36 fps (28.00, 28.00, 28.00, 29.00, 28.00, 29.00, 28.00, 28.00, 28.00, 29.00, 29.00)
+FpsCounter(average 20.13sec): total=340.31 fps, number-streams=11, per-stream=30.94 fps (31.00, 30.90, 31.00, 30.75, 30.95, 30.90, 31.29, 30.95, 30.90, 30.70, 31.00)
+FpsCounter(last 1.01sec): total=308.39 fps, number-streams=11, per-stream=28.04 fps (28.66, 26.69, 27.68, 27.68, 29.65, 27.68, 28.66, 27.68, 28.66, 27.68, 27.68)
+FpsCounter(average 21.14sec): total=338.79 fps, number-streams=11, per-stream=30.80 fps (30.88, 30.70, 30.84, 30.65, 30.88, 30.70, 31.12, 30.79, 30.79, 30.55, 30.88)
+FpsCounter(last 1.01sec): total=308.58 fps, number-streams=11, per-stream=28.05 fps (26.70, 28.68, 28.68, 27.69, 28.68, 27.69, 28.68, 27.69, 28.68, 27.69, 27.69)
+FpsCounter(average 22.15sec): total=337.45 fps, number-streams=11, per-stream=30.68 fps (30.70, 30.61, 30.74, 30.52, 30.79, 30.61, 31.01, 30.61, 30.65, 30.47, 30.74)
+FpsCounter(last 1.02sec): total=311.29 fps, number-streams=11, per-stream=28.30 fps (28.57, 28.57, 28.57, 28.57, 28.57, 27.58, 27.58, 28.57, 27.58, 28.57, 28.57)
+FpsCounter(average 23.16sec): total=336.39 fps, number-streams=11, per-stream=30.58 fps (30.61, 30.48, 30.66, 30.44, 30.66, 30.48, 30.91, 30.53, 30.57, 30.40, 30.66)
+FpsCounter(last 1.01sec): total=312.57 fps, number-streams=11, per-stream=28.42 fps (28.69, 28.69, 28.69, 28.69, 27.70, 28.69, 28.69, 27.70, 28.69, 27.70, 28.69)
+FpsCounter(average 24.17sec): total=335.36 fps, number-streams=11, per-stream=30.49 fps (30.49, 30.40, 30.57, 30.32, 30.57, 30.40, 30.82, 30.45, 30.49, 30.28, 30.57)
+FpsCounter(last 1.01sec): total=313.53 fps, number-streams=11, per-stream=28.50 fps (28.77, 27.78, 28.77, 26.79, 29.77, 27.78, 28.77, 28.77, 27.78, 29.77, 28.77)
+FpsCounter(average 25.19sec): total=334.42 fps, number-streams=11, per-stream=30.40 fps (30.45, 30.33, 30.45, 30.21, 30.53, 30.25, 30.73, 30.33, 30.41, 30.21, 30.49)
+FpsCounter(last 1.00sec): total=311.12 fps, number-streams=11, per-stream=28.28 fps (28.92, 27.92, 27.92, 28.92, 28.92, 27.92, 27.92, 27.92, 29.92, 26.92, 27.92)
+FpsCounter(average 26.20sec): total=333.59 fps, number-streams=11, per-stream=30.33 fps (30.39, 30.23, 30.39, 30.16, 30.46, 30.23, 30.61, 30.27, 30.35, 30.12, 30.39)
+FpsCounter(last 1.00sec): total=307.36 fps, number-streams=11, per-stream=27.94 fps (26.94, 26.94, 27.94, 29.94, 27.94, 27.94, 27.94, 26.94, 27.94, 28.94, 27.94)
+FpsCounter(average 27.20sec): total=332.59 fps, number-streams=11, per-stream=30.24 fps (30.26, 30.14, 30.29, 30.14, 30.37, 30.11, 30.51, 30.14, 30.26, 30.07, 30.29)
+FpsCounter(last 1.01sec): total=312.88 fps, number-streams=11, per-stream=28.44 fps (28.71, 28.71, 27.72, 28.71, 27.72, 28.71, 28.71, 28.71, 27.72, 27.72, 29.70)
+FpsCounter(average 28.21sec): total=331.88 fps, number-streams=11, per-stream=30.17 fps (30.20, 30.06, 30.20, 30.06, 30.27, 30.09, 30.45, 30.09, 30.16, 30.02, 30.27)
+FpsCounter(last 1.01sec): total=312.52 fps, number-streams=11, per-stream=28.41 fps (27.69, 30.66, 27.69, 26.70, 28.68, 29.67, 28.68, 27.69, 27.69, 28.68, 28.68)
+FpsCounter(average 29.22sec): total=331.25 fps, number-streams=11, per-stream=30.11 fps (30.12, 30.08, 30.12, 30.01, 30.22, 30.05, 30.39, 30.01, 30.08, 29.95, 30.22)
+FpsCounter(last 1.01sec): total=313.81 fps, number-streams=11, per-stream=28.53 fps (28.80, 27.81, 28.80, 28.80, 28.80, 27.81, 27.81, 28.80, 28.80, 28.80, 28.80)
+FpsCounter(average 30.23sec): total=330.67 fps, number-streams=11, per-stream=30.06 fps (30.07, 30.01, 30.07, 29.94, 30.17, 29.97, 30.34, 29.97, 30.04, 29.91, 30.17)
+FpsCounter(last 1.01sec): total=312.00 fps, number-streams=11, per-stream=28.36 fps (28.63, 28.63, 28.63, 29.62, 28.63, 27.65, 29.62, 27.65, 28.63, 26.66, 27.65)
+FpsCounter(average 31.23sec): total=330.07 fps, number-streams=11, per-stream=30.01 fps (30.01, 29.97, 30.04, 29.94, 30.10, 29.88, 30.29, 29.91, 30.01, 29.81, 30.10)
+FpsCounter(last 1.00sec): total=315.41 fps, number-streams=11, per-stream=28.67 fps (27.95, 27.95, 29.94, 28.95, 27.95, 27.95, 28.95, 28.95, 28.95, 29.94, 27.95)
+FpsCounter(average 32.24sec): total=329.55 fps, number-streams=11, per-stream=29.96 fps (29.97, 29.91, 30.00, 29.87, 30.03, 29.84, 30.25, 29.87, 29.97, 29.81, 30.03)
+FpsCounter(last 1.00sec): total=311.65 fps, number-streams=11, per-stream=28.33 fps (27.97, 27.97, 27.97, 28.97, 27.97, 27.97, 28.97, 28.97, 28.97, 27.97, 27.97)
+FpsCounter(average 33.24sec): total=329.07 fps, number-streams=11, per-stream=29.92 fps (29.90, 29.87, 29.96, 29.87, 29.99, 29.78, 30.20, 29.84, 29.93, 29.75, 29.96)
+FpsCounter(last 1.00sec): total=311.03 fps, number-streams=11, per-stream=28.28 fps (28.91, 28.91, 27.91, 27.91, 26.92, 28.91, 27.91, 26.92, 28.91, 28.91, 28.91)
+FpsCounter(average 34.24sec): total=328.45 fps, number-streams=11, per-stream=29.86 fps (29.88, 29.82, 29.90, 29.82, 29.90, 29.76, 30.14, 29.76, 29.88, 29.70, 29.90)
+FpsCounter(last 1.00sec): total=311.68 fps, number-streams=11, per-stream=28.33 fps (27.97, 28.97, 28.97, 27.97, 28.97, 28.97, 27.97, 28.97, 27.97, 27.97, 26.97)
+FpsCounter(average 35.25sec): total=328.04 fps, number-streams=11, per-stream=29.82 fps (29.82, 29.79, 29.87, 29.76, 29.87, 29.73, 30.10, 29.73, 29.84, 29.67, 29.84)
+FpsCounter(last 1.01sec): total=309.43 fps, number-streams=11, per-stream=28.13 fps (28.76, 26.78, 27.77, 28.76, 27.77, 28.76, 28.76, 27.77, 27.77, 27.77, 28.76)
+FpsCounter(average 36.26sec): total=327.52 fps, number-streams=11, per-stream=29.77 fps (29.79, 29.70, 29.81, 29.73, 29.81, 29.70, 30.04, 29.68, 29.79, 29.65, 29.81)
+FpsCounter(last 1.01sec): total=314.00 fps, number-streams=11, per-stream=28.55 fps (28.82, 27.82, 29.81, 27.82, 28.82, 28.82, 27.82, 28.82, 28.82, 28.82, 27.82)
+FpsCounter(average 37.26sec): total=327.09 fps, number-streams=11, per-stream=29.74 fps (29.74, 29.66, 29.82, 29.68, 29.76, 29.66, 29.98, 29.66, 29.76, 29.60, 29.76)
+FpsCounter(last 1.01sec): total=310.31 fps, number-streams=11, per-stream=28.21 fps (27.85, 28.84, 27.85, 26.85, 27.85, 27.85, 28.84, 28.84, 27.85, 28.84, 28.84)
+FpsCounter(average 38.27sec): total=326.69 fps, number-streams=11, per-stream=29.70 fps (29.71, 29.63, 29.76, 29.60, 29.74, 29.63, 29.94, 29.63, 29.74, 29.58, 29.74)
+FpsCounter(last 1.01sec): total=309.05 fps, number-streams=11, per-stream=28.10 fps (27.74, 26.74, 27.74, 28.73, 28.73, 27.74, 28.73, 27.74, 28.73, 27.74, 28.73)
+FpsCounter(average 39.27sec): total=326.29 fps, number-streams=11, per-stream=29.66 fps (29.69, 29.59, 29.71, 29.59, 29.71, 29.59, 29.92, 29.59, 29.66, 29.54, 29.71)
+FpsCounter(last 1.00sec): total=313.38 fps, number-streams=11, per-stream=28.49 fps (28.94, 29.94, 28.94, 27.94, 27.94, 28.94, 27.94, 28.94, 26.95, 27.94, 28.94)
+FpsCounter(average 40.28sec): total=325.99 fps, number-streams=11, per-stream=29.64 fps (29.64, 29.57, 29.69, 29.57, 29.67, 29.57, 29.89, 29.57, 29.62, 29.52, 29.69)
+FpsCounter(last 1.00sec): total=313.52 fps, number-streams=11, per-stream=28.50 fps (26.96, 27.96, 28.96, 28.96, 28.96, 28.96, 27.96, 28.96, 28.96, 28.96, 27.96)
+FpsCounter(average 41.29sec): total=325.67 fps, number-streams=11, per-stream=29.61 fps (29.57, 29.55, 29.67, 29.52, 29.64, 29.57, 29.81, 29.57, 29.60, 29.50, 29.67)
+FpsCounter(last 1.01sec): total=313.28 fps, number-streams=11, per-stream=28.48 fps (28.75, 28.75, 28.75, 28.75, 27.76, 27.76, 29.74, 28.75, 27.76, 28.75, 27.76)
+FpsCounter(average 42.29sec): total=325.34 fps, number-streams=11, per-stream=29.58 fps (29.56, 29.51, 29.65, 29.51, 29.60, 29.51, 29.82, 29.53, 29.58, 29.46, 29.60)
+FpsCounter(last 1.01sec): total=309.00 fps, number-streams=11, per-stream=28.09 fps (27.73, 27.73, 27.73, 27.73, 28.72, 27.73, 27.73, 27.73, 28.72, 28.72, 28.72)
+FpsCounter(average 43.29sec): total=325.01 fps, number-streams=11, per-stream=29.55 fps (29.52, 29.47, 29.61, 29.50, 29.59, 29.47, 29.77, 29.50, 29.54, 29.45, 29.59)
+FpsCounter(last 1.01sec): total=312.58 fps, number-streams=11, per-stream=28.42 fps (28.69, 28.69, 28.69, 28.69, 27.70, 28.69, 28.69, 28.69, 27.70, 28.69, 27.70)
+FpsCounter(average 44.30sec): total=324.67 fps, number-streams=11, per-stream=29.52 fps (29.50, 29.46, 29.57, 29.46, 29.53, 29.46, 29.75, 29.48, 29.50, 29.41, 29.55)
+FpsCounter(last 1.00sec): total=314.80 fps, number-streams=11, per-stream=28.62 fps (28.89, 27.89, 27.89, 28.89, 27.89, 29.89, 28.89, 28.89, 28.89, 27.89, 28.89)
+FpsCounter(average 45.31sec): total=324.42 fps, number-streams=11, per-stream=29.49 fps (29.49, 29.40, 29.55, 29.44, 29.51, 29.44, 29.73, 29.46, 29.46, 29.40, 29.53)
+FpsCounter(last 1.00sec): total=307.55 fps, number-streams=11, per-stream=27.96 fps (27.96, 26.96, 26.96, 28.96, 27.96, 26.96, 27.96, 28.96, 28.96, 27.96, 27.96)
+FpsCounter(average 46.31sec): total=324.13 fps, number-streams=11, per-stream=29.47 fps (29.45, 29.39, 29.50, 29.43, 29.47, 29.41, 29.69, 29.45, 29.47, 29.37, 29.50)
+FpsCounter(last 1.00sec): total=311.01 fps, number-streams=11, per-stream=28.27 fps (28.91, 28.91, 28.91, 26.91, 27.91, 27.91, 27.91, 27.91, 28.91, 27.91, 28.91)
+FpsCounter(average 47.31sec): total=323.86 fps, number-streams=11, per-stream=29.44 fps (29.44, 29.36, 29.46, 29.38, 29.46, 29.38, 29.65, 29.44, 29.46, 29.34, 29.48)
+FpsCounter(last 1.01sec): total=312.14 fps, number-streams=11, per-stream=28.38 fps (27.66, 28.65, 28.65, 28.65, 28.65, 27.66, 28.65, 28.65, 28.65, 28.65, 27.66)
+FpsCounter(average 48.32sec): total=323.60 fps, number-streams=11, per-stream=29.42 fps (29.41, 29.33, 29.47, 29.37, 29.43, 29.35, 29.64, 29.39, 29.43, 29.33, 29.45)
+FpsCounter(last 1.00sec): total=314.72 fps, number-streams=11, per-stream=28.61 fps (28.88, 27.89, 28.88, 28.88, 28.88, 29.88, 27.89, 27.89, 27.89, 28.88, 28.88)
+FpsCounter(average 49.32sec): total=323.39 fps, number-streams=11, per-stream=29.40 fps (29.40, 29.30, 29.48, 29.34, 29.42, 29.34, 29.58, 29.38, 29.42, 29.32, 29.44)
+FpsCounter(last 1.01sec): total=313.65 fps, number-streams=11, per-stream=28.51 fps (28.78, 27.79, 29.78, 28.78, 28.78, 27.79, 26.80, 29.78, 28.78, 28.78, 27.79)
+FpsCounter(average 50.33sec): total=323.22 fps, number-streams=11, per-stream=29.38 fps (29.39, 29.29, 29.45, 29.33, 29.39, 29.33, 29.55, 29.39, 29.41, 29.31, 29.41)
+FpsCounter(last 1.01sec): total=311.54 fps, number-streams=11, per-stream=28.32 fps (28.59, 29.58, 27.60, 27.60, 27.60, 28.59, 28.59, 27.60, 28.59, 28.59, 28.59)
+FpsCounter(average 51.33sec): total=322.98 fps, number-streams=11, per-stream=29.36 fps (29.36, 29.28, 29.42, 29.32, 29.38, 29.30, 29.53, 29.34, 29.38, 29.30, 29.38)
+FpsCounter(last 1.00sec): total=310.66 fps, number-streams=11, per-stream=28.24 fps (28.88, 27.88, 27.88, 27.88, 29.87, 27.88, 27.88, 28.88, 26.88, 28.88, 27.88)
+FpsCounter(average 52.35sec): total=322.74 fps, number-streams=11, per-stream=29.34 fps (29.36, 29.26, 29.40, 29.26, 29.36, 29.28, 29.49, 29.32, 29.34, 29.28, 29.36)
+FpsCounter(last 1.00sec): total=315.00 fps, number-streams=11, per-stream=28.64 fps (28.91, 28.91, 28.91, 27.91, 28.91, 28.91, 27.91, 27.91, 28.91, 28.91, 28.91)
+FpsCounter(average 53.36sec): total=322.55 fps, number-streams=11, per-stream=29.32 fps (29.35, 29.24, 29.39, 29.25, 29.37, 29.27, 29.46, 29.31, 29.33, 29.25, 29.33)
+FpsCounter(last 1.01sec): total=310.13 fps, number-streams=11, per-stream=28.19 fps (27.83, 27.83, 27.83, 28.83, 27.83, 27.83, 28.83, 28.83, 28.83, 27.83, 27.83)
+FpsCounter(average 54.37sec): total=322.35 fps, number-streams=11, per-stream=29.30 fps (29.33, 29.22, 29.35, 29.24, 29.33, 29.24, 29.45, 29.30, 29.32, 29.24, 29.32)
+FpsCounter(last 1.00sec): total=311.12 fps, number-streams=11, per-stream=28.28 fps (28.92, 27.92, 28.92, 27.92, 27.92, 27.92, 27.92, 27.92, 27.92, 28.92, 28.92)
+FpsCounter(average 55.38sec): total=322.16 fps, number-streams=11, per-stream=29.29 fps (29.30, 29.20, 29.34, 29.23, 29.32, 29.21, 29.43, 29.27, 29.30, 29.23, 29.32)
+FpsCounter(last 1.00sec): total=310.54 fps, number-streams=11, per-stream=28.23 fps (27.87, 29.86, 28.86, 28.86, 27.87, 27.87, 28.86, 27.87, 28.86, 26.87, 26.87)
+FpsCounter(average 56.39sec): total=321.94 fps, number-streams=11, per-stream=29.27 fps (29.28, 29.21, 29.33, 29.22, 29.29, 29.19, 29.40, 29.26, 29.28, 29.21, 29.28)
+FpsCounter(last 1.00sec): total=314.82 fps, number-streams=11, per-stream=28.62 fps (27.90, 27.90, 27.90, 28.89, 28.89, 27.90, 29.89, 29.89, 28.89, 27.90, 28.89)
+FpsCounter(average 57.40sec): total=321.81 fps, number-streams=11, per-stream=29.26 fps (29.25, 29.20, 29.31, 29.20, 29.29, 29.18, 29.41, 29.25, 29.29, 29.18, 29.25)
+FpsCounter(last 1.01sec): total=314.32 fps, number-streams=11, per-stream=28.57 fps (27.85, 28.85, 28.85, 27.85, 28.85, 28.85, 27.85, 28.85, 28.85, 27.85, 29.84)
+FpsCounter(average 58.40sec): total=321.67 fps, number-streams=11, per-stream=29.24 fps (29.24, 29.18, 29.30, 29.19, 29.26, 29.18, 29.40, 29.23, 29.26, 29.16, 29.28)
+FpsCounter(last 1.00sec): total=310.89 fps, number-streams=11, per-stream=28.26 fps (27.90, 27.90, 27.90, 27.90, 28.90, 27.90, 28.90, 26.90, 28.90, 28.90, 28.90)
+FpsCounter(average 59.41sec): total=321.52 fps, number-streams=11, per-stream=29.23 fps (29.22, 29.17, 29.29, 29.17, 29.25, 29.15, 29.39, 29.22, 29.27, 29.13, 29.27)
+FpsCounter(last 1.01sec): total=312.86 fps, number-streams=11, per-stream=28.44 fps (28.71, 27.72, 29.70, 28.71, 27.72, 29.70, 28.71, 27.72, 27.72, 27.72, 28.71)
+FpsCounter(average 60.43sec): total=321.36 fps, number-streams=11, per-stream=29.21 fps (29.21, 29.14, 29.29, 29.14, 29.24, 29.16, 29.37, 29.19, 29.24, 29.13, 29.24)
+FpsCounter(last 1.01sec): total=311.84 fps, number-streams=11, per-stream=28.35 fps (27.63, 28.62, 28.62, 28.62, 28.62, 28.62, 27.63, 28.62, 28.62, 28.62, 27.63)
+FpsCounter(average 61.43sec): total=321.23 fps, number-streams=11, per-stream=29.20 fps (29.19, 29.14, 29.28, 29.14, 29.22, 29.15, 29.35, 29.19, 29.23, 29.12, 29.23)

@@ -1,1 +1,1 @@
-bash tune_local_streams.sh
+bash media_ai_b60.sh

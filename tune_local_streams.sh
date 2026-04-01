@@ -4,11 +4,13 @@ set -euo pipefail
 # Supports both decode-only and full YOLO pipeline modes
 # Usage: ./tune_local_streams.sh -f <input_file> [options]
 # Options:
-#   -f <file>      Input video file (required)
-#   -m <model_dir> Model directory for YOLO detection (enables full pipeline)
+#   -f <file>       Input video file (required)
+#   -m <model_dir>  Model directory for YOLO detection (enables full pipeline)
 #   -b <batch_size> Batch size for YOLO detection (default: 1)
-#   -n <number>    Number of streams to test (default: 30)
-#   -o             Oneshot mode - run specified streams once without tuning
+#   -g <device>     GPU device (GPU.0, GPU.1, GPU.2, GPU.3) (default: GPU.1)
+#   -n <number>     Number of streams to test (default: 30)
+#   -o              Oneshot mode - run specified streams once without tuning
+#   -G <groups>     Number of groups to split streams (default: auto; YOLO defaults to 1)
 # Examples:
 #   Decode pipeline: ./tune_local_streams.sh -f video.mp4 -n 30
 #   Full pipeline:   ./tune_local_streams.sh -f video.mp4 -m /path/to/model -b 2 -n 30
@@ -21,7 +23,8 @@ MODEL_FOLDER=""
 BATCH_SIZE=1
 ONESHOT_MODE=false
 GPU_DEVICE="GPU.1"
-PASS_THRESHOLD=23.75
+NUM_GROUPS=""  # empty means auto
+PASS_THRESHOLD=25
 FPS_CHECK_INTERVAL=10
 STABILIZATION_TIME=5
 TEST_TIMEOUT=60
@@ -42,6 +45,7 @@ OPTIONS:
     -g <device>     GPU device (GPU.0, GPU.1, GPU.2, GPU.3) (default: GPU.1)
     -o              Oneshot mode - run specified streams once without tuning
     -n <number>     Number of streams to test in oneshot mode, or starting streams for tuning (default: 30)
+    -G <groups>     Number of groups to split streams (default: auto; YOLO defaults to 1)
     -h              Show this help message
 
 
@@ -62,6 +66,7 @@ NOTES:
     - If -m is not specified, runs in decode-only mode
     - If -m is specified, runs full YOLO detection pipeline
     - If -o is specified, runs oneshot mode without tuning
+    - If -G is not specified, decode-only mode auto-calculates groups (about 60 streams per group), YOLO mode defaults to 1
     - GPU.0 uses vah264dec/vah265dec with vapostproc
     - GPU.1 uses varenderD129* with varenderD129postproc
     - GPU.2 uses varenderD130* with varenderD130postproc
@@ -71,7 +76,7 @@ EOF
 }
 
 # Parse command line arguments
-while getopts "f:m:b:g:n:oh" opt; do
+while getopts "f:m:b:g:n:G:oh" opt; do
     case $opt in
         f)
             INPUT_FILE="$OPTARG"
@@ -90,6 +95,9 @@ while getopts "f:m:b:g:n:oh" opt; do
             ;;
         o)
             ONESHOT_MODE=true
+            ;;
+        G)
+            NUM_GROUPS="$OPTARG"
             ;;
         h)
             show_help
@@ -114,12 +122,22 @@ fi
 # Determine mode and set NUM_GROUPS
 if [[ -n "$MODEL_FOLDER" ]]; then
     MODE="YOLO"
-    NUM_GROUPS=1  # YOLO mode uses single group
+    if [[ -z "$NUM_GROUPS" ]]; then
+        NUM_GROUPS=NUM_GROUPS  # YOLO mode defaults to single group
+    fi
 else
     MODE="DECODE"
-    NUM_GROUPS=$(( (START_STREAMS + 59) / 60 ))  # Decode mode uses dynamic groups
+    if [[ -z "$NUM_GROUPS" ]]; then
+        NUM_GROUPS=$(( (START_STREAMS + 59) / 60 ))  # default: about 60 streams per group
+    fi
 fi
-PASS_THRESHOLD=23.75
+
+# Validate NUM_GROUPS
+if [[ ! "$NUM_GROUPS" =~ ^[0-9]+$ ]] || [[ "$NUM_GROUPS" -lt 1 ]]; then
+    echo "Error: NUM_GROUPS must be a positive integer"
+    exit 1
+fi
+PASS_THRESHOLD=25
 FPS_CHECK_INTERVAL=10
 STABILIZATION_TIME=5
 TEST_TIMEOUT=60
@@ -238,7 +256,7 @@ if [[ "$MODE" == "YOLO" ]]; then
     echo "Model folder: $MODEL_FOLDER"
     echo "Batch size: $BATCH_SIZE"
 fi
-echo "Number of groups: $NUM_GROUPS"
+echo "Number of groups: $NUM_GROUPS (override with -G)"
 echo "FPS threshold: $PASS_THRESHOLD"
 echo "Test timeout: ${TEST_TIMEOUT}s"
 echo "==========================================="
@@ -588,7 +606,6 @@ if [[ "$ONESHOT_MODE" == true ]]; then
 else
     tune_streams
 fi
-
 echo ""
 echo "========================================="
 echo "Local File Stream Tuning Results:"
@@ -596,7 +613,7 @@ echo "========================================="
 echo "Input file: $INPUT_FILE"
 echo "GPU device: $GPU_DEVICE"
 echo "Starting streams: $START_STREAMS"
-echo "Number of groups: $NUM_GROUPS"
+echo "Number of groups: $NUM_GROUPS (set by -G or auto)"
 echo "Optimal streams: $MAX_STREAMS"
 echo "Average FPS at optimal streams: $MAX_STREAMS_AVERAGE_FPS"
 echo "FPS threshold: $PASS_THRESHOLD"
