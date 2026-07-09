@@ -17,7 +17,6 @@ models/
 
 # Logs and outputs
 *.log
-group_*.log
 output/
 group_scripts/
 
