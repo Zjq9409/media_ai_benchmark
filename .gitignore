@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Models and exports
+models/
+*.pt
+*.onnx
+*.xml
+*.bin
+*.json
+
+# Logs and outputs
+*.log
+group_*.log
+output/
+group_scripts/
+
+
