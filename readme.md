@@ -1,6 +1,6 @@
 # Media AI Benchmark on B60
 
-**备注：** `export_yolov8.py` 是将 YOLO 模型转换为 OpenVINO 格式的参考脚本，需要时可运行更新模型。
+**备注：** `export_yolov.py` 是将 YOLO 模型转换为 OpenVINO 格式的参考脚本，需要时可运行更新模型。
 
 ## 1. 启动 Docker 容器
 
