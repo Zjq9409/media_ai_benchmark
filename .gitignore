@@ -19,5 +19,5 @@ models/
 *.log
 output/
 group_scripts/
-
-
+video/*
+group_scripts_10fps/
